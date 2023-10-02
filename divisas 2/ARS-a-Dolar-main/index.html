@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Cambios Dolar Arg</title>
+</head>
+<body>
+    <header>
+        <h1>Conversor de divisas</h1>
+    </header>
+    <main id="main">
+        <div>
+            <input min="0" type="number" id="currency" autofocus>
+            <ul id="currency_list">
+                <li class="usd blue"><p>Dólar Blue: </p><span class="loading"></span></li>
+                <li class="usd oficial"><p>Dólar Oficial: </p><span class="loading"></span></li>
+                <li class="eur blue"><p>Euro Blue: </p><span class="loading"></span></li>
+                <li class="eur oficial"><p>Euro Oficial: </p><span class="loading"></span></li>
+            </ul>
+        </div>
+        <div id="change_mode">
+            <img id="change_icon" src="./icons/sync-outline.svg" alt="Change mode icon">
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
